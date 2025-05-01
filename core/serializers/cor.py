@@ -3,5 +3,5 @@ from core.models import Cor
 
 class CorSerializer(ModelSerializer):
     class Meta:
-        model: Cor
-        fields: "__all__"
+        model = Cor
+        fields = "__all__"
