@@ -8,7 +8,7 @@ from django.utils.translation import gettext_lazy as _
 
 from core import models
 
-from core.models import User, Acessorio, Cor
+from core.models import User, Acessorio, Cor, Modelo, Veiculo
 
 class UserAdmin(BaseUserAdmin):
     """Define the admin pages for users."""
