@@ -3,5 +3,5 @@ from core.models import Acessorio
 
 class AcessorioSerializer(ModelSerializer):
     class Meta:
-        model: Acessorio
-        fields: "__all__"
+        model = Acessorio
+        fields = "__all__"
